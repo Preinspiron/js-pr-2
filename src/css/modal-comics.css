@@ -9,6 +9,7 @@
 
   width: 100%;
   height: 100%;
+  padding: 30px;
 
   /* background-color: hsla(237, 42%, 35%, 0.732); */
   background-color: #171717;
@@ -110,7 +111,7 @@
   color: rgba(250, 250, 250, 0.5);
   background-color: wheat;
   text-align: center;
-  width: 588px;
+  width: 556px;
   height: 714px;
   background-color: #171717;
   border-radius: 8px;
@@ -124,7 +125,6 @@
 .modal-comics-desc .desc {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 32px;
 }
 
 .modal-comics-desc p {
@@ -150,17 +150,12 @@
 
 }
 
-.modal-comics-mainText {
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
 
 .modal-comics-detials {
   display: flex;
   gap: 32px;
 }
 
-.modal-comics-characters {}
 
 .modal-comics-characters .items {
   display: flex;
@@ -169,6 +164,7 @@
   height: 100%;
   gap: 16px;
   height: 212px;
+
 
 
 }
@@ -180,15 +176,57 @@
 
 .modal-comics-characters .item {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  gap: 2px;
+  gap: 14px;
+  outline: 1px dashed red;
 
 
 
 
 }
 
+.modal-comics-characters .item p {
+  margin: 0;
+}
+
 .modal-comics-characters .item img {
   width: 60px;
+
+}
+
+.modal-comics-desc h3 {
+  color: rgba(250, 250, 250, 1);
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.modal-comics-desc .desc-title {
+  margin-bottom: 16px;
+}
+
+.modal-comics-detials p {
+  margin-top: 8px;
+  outline: 1px darkviolet red;
+}
+
+.modal-comics-creatorSection .desc {
+  display: flex;
+  height: 60px;
+  align-items: start;
+  justify-content: start;
+  gap: 14px;
+  /* background-color: wheat; */
+}
+
+.modal-comics-creatorSection {
+  margin-bottom: 32px;
+}
+
+.modal-comics-creatorSection .writer {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 8px;
 }

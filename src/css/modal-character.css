@@ -21,7 +21,7 @@ img {
   width: 100%;
 
   background-color: hsla(235, 92%, 5%, 0.877);
-  
+
 }
 
 .modal {
@@ -70,7 +70,7 @@ img {
   justify-self: unset;
 }
 
-.container-img-max  img{
+.container-img-max img {
   border-radius: 8px;
   margin-top: 6px;
 
@@ -184,9 +184,10 @@ img {
     padding-right: 20px;
     background-color: #0C0B0B;
   }
+
   .container-modal {
-   min-width: 536px; 
-   margin: none;
+    min-width: 536px;
+    margin: none;
   }
 
   .icon-modal-close {
@@ -199,16 +200,18 @@ img {
   }
 
   .img-list {
-   flex-direction: column;
+    flex-direction: column;
   }
 
   .comics-list {
     gap: 19px;
   }
+
   .comics-img-container {
     width: 155px;
     height: 200px;
   }
+
   .comics-list-title {
     font-size: 14px;
   }
