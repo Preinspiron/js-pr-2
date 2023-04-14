@@ -11,7 +11,11 @@ img {
 
 /* --------- Modile --------- */
 .backdrop {
+
+  /* position: fixed; */
+
   position: absolute;
+
   top: 0;
 
   width: 100%;
@@ -40,6 +44,7 @@ img {
   align-items: center;
   background-color: transparent;
   border: none;
+
 }
 
 .container-modal {
@@ -68,6 +73,7 @@ img {
 .container-img-max  img{
   border-radius: 8px;
   margin-top: 6px;
+
 }
 
 .icon-modal-close {
