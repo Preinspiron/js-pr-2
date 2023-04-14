@@ -179,7 +179,7 @@
   justify-content: flex-start;
   align-items: center;
   gap: 14px;
-  outline: 1px dashed red;
+  /* outline: 1px dashed red; */
 
 
 
@@ -208,7 +208,7 @@
 
 .modal-comics-detials p {
   margin-top: 8px;
-  outline: 1px darkviolet red;
+  /* outline: 1px darkviolet red; */
 }
 
 .modal-comics-creatorSection .desc {
